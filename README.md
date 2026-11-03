@@ -45,6 +45,8 @@ All datasets are open data. The unit of analysis is the municipality (gemeenteli
 
 `kwb2024_per_gemeente.csv` is a small extract of the full CBS download (about 72 MB), which is not included in the repository. To recreate the extract, place the CBS files `Observations.csv` and `WijkenEnBuurtenCodes.csv` in `data/raw/kwb2024/` and delete the extract; notebook 6 then rebuilds it.
 
+Raw data files keep their original Dutch names; all notebooks, processed data and figures have English names.
+
 ## How to run the analysis
 
 ### 1. Install the required packages
@@ -61,11 +63,15 @@ Open Jupyter from the repository folder and run the notebooks in `notebooks/` fr
 
 | Notebook | What it does | Output |
 | --- | --- | --- |
-| `1. code_inkomens_laadpunten_per_gemeente.ipynb` | Merges charging points with households and income; calculates charging points per 1,000 households | `data/processed/laadpunten_huishoudens_inkomen_per_gemeente.csv` |
-| `2. laadpalen_huishoudens.ipynb` | Map of charging points per 1,000 households | `figures/kaart_laadpunten_per_1000_huishoudens.png` |
-| `6. beschrijvende_statistiek_correlaties.ipynb` | Merges all variables; descriptive statistics, correlations with charging point density and correlation matrix (report section 6.6) | `data/processed/alle_variabelen_per_gemeente.csv`, `data/processed/tabel_vergelijking_factoren.csv`, `figures/figuur_correlatiematrix.png`, `figures/figuur_verdeling_laadpunten.png` |
-| *to be added* | Maps and plots per sub-question (income, education, age, vote share, density) | `figures/` |
-| *to be added* | Multivariate regression (report section 7) | `figures/`, `data/processed/` |
+| `1. chargingpoints_households_income.ipynb` | Merges charging points with households and income; calculates charging points per 1,000 households | `data/processed/chargingpoints_households_income.csv` |
+| `2. chargingpoints_per_1000_households.ipynb` | Map of charging points per 1,000 households | `figures/map_chargingpoints_per_1000households.png` |
+| `3. age_per_municipality-2.ipynb` | Age structure per municipality and map | `data/processed/age_per_municipality.csv`, `figures/map_age_per_municipality.png` |
+| `4. left_wing_votes_per_municipality.ipynb` | Left-wing vote share per municipality and map | `data/processed/left_wing_votes_per_municipality.csv`, `figures/map_left_wing_votes_per_municipality.png` |
+| `6. descriptive_statistics_correlations.ipynb` | Merges all variables; descriptive statistics, correlations with charging point density and correlation matrix (report section 6.6) | `data/processed/all_variables_per_municipality.csv`, `data/processed/table_comparison_factors.csv`, `figures/figure_correlationmatrix.png`, `figures/figure_distribution_of_public_charging_point_density.png` |
+| `7. regression.ipynb` | Multivariate OLS regression with robustness checks and residual diagnostics (report section 7) | `data/processed/regression_results.csv`, `figures/figure_regression_coefficients.png`, `figures/figure_regression_residuals.png` |
+| *to be added* | Maps and plots for income, education and population density | `figures/` |
+
+Notebook 7 uses the output of notebook 6, so run notebook 6 first.
 
 ### 3. Read the report
 

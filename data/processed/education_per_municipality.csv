@@ -1,0 +1,343 @@
+municipality,highly_educated_pct,low_educated_pct
+Groningen,44.74,15.9
+Almere,30.76,26.89
+Stadskanaal,17.49,31.98
+Veendam,20.85,30.83
+Zeewolde,31.56,22.51
+Achtkarspelen,17.93,32.5
+Ameland,23.4,24.82
+Harlingen,23.34,29.63
+Heerenveen,30.33,25.15
+Leeuwarden,32.4,23.93
+Ooststellingwerf,23.93,27.06
+Opsterland,28.99,26.83
+Schiermonnikoog,37.84,18.92
+Smallingerland,25.54,28.02
+Terschelling,28.76,20.16
+Vlieland,32.0,17.0
+Weststellingwerf,23.58,28.28
+Assen,29.96,24.16
+Coevorden,24.23,26.6
+Emmen,18.99,32.03
+Hoogeveen,18.9,33.38
+Meppel,29.79,27.54
+Almelo,25.64,31.37
+Borne,36.0,20.53
+Dalfsen,27.78,24.44
+Deventer,34.57,25.1
+Enschede,30.75,26.76
+Haaksbergen,28.85,24.84
+Hardenberg,20.24,28.98
+Hellendoorn,25.0,26.2
+Hengelo,31.52,25.0
+Kampen,25.87,28.8
+Losser,25.3,26.63
+Noordoostpolder,23.4,27.49
+Oldenzaal,33.06,25.26
+Ommen,25.89,25.11
+Raalte,27.52,24.06
+Staphorst,21.86,29.36
+Tubbergen,27.29,24.81
+Urk,12.44,35.68
+Wierden,29.03,22.74
+Zwolle,40.42,21.97
+Aalten,23.5,27.44
+Apeldoorn,30.33,26.74
+Arnhem,37.82,25.55
+Barneveld,23.95,30.09
+Beuningen,32.19,24.17
+Brummen,28.45,26.3
+Buren,26.5,30.39
+Culemborg,38.71,24.45
+Doesburg,24.64,31.04
+Doetinchem,30.71,25.4
+Druten,27.71,28.98
+Duiven,28.66,24.9
+Ede,32.54,25.86
+Elburg,25.26,29.88
+Epe,25.82,29.57
+Ermelo,30.24,26.82
+Harderwijk,29.5,27.75
+Hattem,33.48,22.03
+Heerde,30.33,27.18
+Heumen,47.73,17.37
+Lochem,36.53,21.64
+Maasdriel,23.66,31.1
+Nijkerk,30.59,26.84
+Nijmegen,46.76,19.45
+Oldebroek,19.33,34.17
+Putten,25.04,31.25
+Renkum,44.83,21.78
+Rheden,34.66,25.44
+Rozendaal,,
+Scherpenzeel,22.51,30.86
+Tiel,26.76,32.55
+Voorst,30.05,25.35
+Wageningen,52.7,19.08
+Westervoort,27.3,27.13
+Winterswijk,24.24,30.23
+Wijchen,31.74,25.41
+Zaltbommel,27.71,28.95
+Zevenaar,25.89,27.27
+Zutphen,32.83,26.16
+Nunspeet,23.04,32.28
+Dronten,26.3,26.83
+Amersfoort,43.58,22.16
+Baarn,39.83,25.18
+De Bilt,48.23,19.84
+Bunnik,50.26,16.23
+Bunschoten,19.6,33.61
+Eemnes,35.94,20.16
+Houten,42.6,20.77
+Leusden,41.74,19.23
+Lopik,23.23,31.3
+Montfoort,30.25,25.52
+Renswoude,21.74,32.13
+Rhenen,29.48,29.21
+Soest,37.69,24.94
+Utrecht,55.21,18.04
+Veenendaal,28.38,27.29
+Woudenberg,32.19,23.11
+Wijk bij Duurstede,32.79,22.44
+IJsselstein,32.43,26.5
+Zeist,45.42,22.68
+Nieuwegein,31.72,26.06
+Aalsmeer,30.95,26.94
+Alkmaar,33.38,24.6
+Amstelveen,47.07,21.62
+Amsterdam,49.7,21.65
+Bergen (NH.),36.77,20.76
+Beverwijk,25.0,28.91
+Blaricum,44.47,19.61
+Bloemendaal,56.05,17.27
+Castricum,39.44,18.94
+Diemen,50.79,16.43
+Edam-Volendam,27.6,30.31
+Enkhuizen,24.46,30.76
+Haarlem,45.08,21.98
+Haarlemmermeer,33.3,24.92
+Heemskerk,26.04,27.46
+Heemstede,54.72,15.65
+Heiloo,43.39,18.2
+Den Helder,18.79,30.01
+Hilversum,42.27,23.15
+Hoorn,29.02,27.1
+Huizen,34.85,25.07
+Landsmeer,39.76,20.59
+Laren,50.8,18.63
+Medemblik,22.64,30.33
+Oostzaan,31.93,22.97
+Opmeer,25.76,24.67
+Ouder-Amstel,47.55,16.67
+Purmerend,27.75,26.9
+Schagen,27.4,25.73
+Texel,25.51,25.02
+Uitgeest,32.54,19.43
+Uithoorn,34.4,25.11
+Velsen,28.3,27.19
+Zandvoort,33.26,29.29
+Zaanstad,27.77,28.14
+Alblasserdam,22.76,31.25
+Alphen aan den Rijn,32.12,24.99
+Barendrecht,32.96,24.21
+Drechterland,26.06,29.77
+Capelle aan den IJssel,30.92,26.95
+Delft,48.13,17.61
+Dordrecht,28.31,29.51
+Gorinchem,29.98,28.64
+Gouda,35.97,25.59
+Den Haag,37.03,29.79
+Hardinxveld-Giessendam,21.36,31.63
+Hendrik-Ido-Ambacht,29.17,24.7
+Stede Broec,22.26,32.41
+Hillegom,30.3,26.7
+Katwijk,23.2,31.16
+Krimpen aan den IJssel,27.9,28.28
+Leiden,49.79,17.83
+Leiderdorp,41.73,21.17
+Lisse,30.1,24.93
+Maassluis,27.76,30.91
+Nieuwkoop,26.92,25.78
+Noordwijk,33.43,24.92
+Oegstgeest,58.38,15.47
+Oudewater,26.84,26.03
+Papendrecht,24.74,25.81
+Ridderkerk,23.62,31.57
+Rotterdam,33.37,29.96
+Rijswijk,41.32,23.42
+Schiedam,27.11,31.63
+Sliedrecht,21.81,33.53
+Albrandswaard,34.44,22.88
+Vlaardingen,24.27,32.87
+Voorschoten,46.35,23.58
+Waddinxveen,30.19,27.4
+Wassenaar,44.53,22.94
+Woerden,36.58,23.23
+Zoetermeer,30.75,26.12
+Zoeterwoude,36.54,24.22
+Zwijndrecht,22.54,31.73
+Borsele,24.6,25.72
+Goes,26.84,30.23
+West Maas en Waal,25.4,25.98
+Hulst,24.15,27.8
+Kapelle,28.69,26.79
+Middelburg,31.13,23.96
+Reimerswaal,16.49,32.62
+Terneuzen,22.36,32.73
+Tholen,20.12,31.72
+Veere,28.83,22.75
+Vlissingen,23.78,28.75
+De Ronde Venen,35.72,22.81
+Tytsjerksteradiel,26.98,25.79
+Asten,27.25,29.43
+Baarle-Nassau,23.85,26.54
+Bergen op Zoom,27.6,31.09
+Best,38.2,22.38
+Boekel,23.36,29.09
+Boxtel,30.14,27.91
+Breda,41.27,22.14
+Deurne,24.69,28.69
+Pekela,17.06,33.59
+Dongen,27.21,26.81
+Eersel,31.86,21.6
+Eindhoven,42.84,23.78
+Etten-Leur,29.61,27.94
+Geertruidenberg,23.47,31.3
+Gilze en Rijen,27.19,25.99
+Goirle,34.62,24.96
+Helmond,26.38,32.94
+'s-Hertogenbosch,40.56,24.52
+Heusden,30.34,27.09
+Hilvarenbeek,34.01,21.13
+Loon op Zand,25.27,26.39
+"Nuenen, Gerwen en Nederwetten",44.26,20.29
+Oirschot,28.41,24.5
+Oisterwijk,34.67,23.15
+Oosterhout,29.49,27.54
+Oss,27.13,28.79
+Rucphen,19.34,34.96
+Sint-Michielsgestel,34.51,24.52
+Someren,25.83,29.61
+Son en Breugel,41.61,19.72
+Steenbergen,22.61,28.37
+Waterland,39.04,25.61
+Tilburg,33.28,26.88
+Valkenswaard,30.94,26.51
+Veldhoven,37.91,23.18
+Vught,45.45,21.4
+Waalre,51.96,16.8
+Waalwijk,23.59,31.28
+Woensdrecht,23.83,34.31
+Zundert,25.75,27.77
+Wormerland,27.74,23.75
+Landgraaf,23.51,33.18
+Beek,31.61,27.26
+Beesel,22.24,32.97
+Bergen (L.),21.2,28.5
+Brunssum,22.0,34.24
+Gennep,25.86,26.39
+Heerlen,23.36,34.22
+Kerkrade,18.71,37.09
+Maastricht,35.88,23.87
+Meerssen,35.25,26.33
+Mook en Middelaar,42.69,18.44
+Nederweert,25.36,32.64
+Roermond,30.15,28.98
+Simpelveld,29.14,26.74
+Stein,26.85,28.44
+Vaals,30.64,30.77
+Venlo,25.57,32.1
+Venray,26.32,29.25
+Voerendaal,36.91,21.56
+Weert,30.58,27.81
+Valkenburg aan de Geul,33.22,26.19
+Lelystad,25.44,30.39
+Horst aan de Maas,27.51,25.36
+Oude IJsselstreek,23.56,30.26
+Teylingen,37.12,20.96
+Utrechtse Heuvelrug,43.13,23.22
+Oost Gelre,28.85,23.12
+Koggenland,25.68,25.62
+Lansingerland,40.97,21.74
+Leudal,29.23,27.53
+Maasgouw,30.45,27.75
+Gemert-Bakel,24.23,29.19
+Halderberge,24.59,30.4
+Heeze-Leende,38.84,20.63
+Laarbeek,25.63,28.91
+Reusel-De Mierden,25.47,27.04
+Roerdalen,26.76,25.52
+Roosendaal,27.1,29.77
+Schouwen-Duiveland,25.14,27.75
+Aa en Hunze,32.74,23.37
+Borger-Odoorn,26.07,26.38
+De Wolden,28.37,23.6
+Noord-Beveland,33.16,22.17
+Wijdemeren,35.79,22.99
+Noordenveld,34.77,21.2
+Twenterand,18.36,33.51
+Westerveld,31.01,24.52
+Lingewaard,30.09,25.7
+Cranendonck,25.93,30.84
+Steenwijkerland,25.48,26.07
+Moerdijk,24.61,28.29
+Echt-Susteren,27.87,27.5
+Sluis,24.76,30.83
+Drimmelen,26.43,28.71
+Bernheze,28.14,27.1
+Alphen-Chaam,33.16,20.18
+Bergeijk,28.15,24.32
+Bladel,27.52,26.23
+Gulpen-Wittem,32.17,24.49
+Tynaarlo,44.5,18.24
+Midden-Drenthe,26.87,24.21
+Overbetuwe,33.02,24.7
+Hof van Twente,29.14,24.83
+Neder-Betuwe,17.14,33.3
+Rijssen-Holten,25.67,26.57
+Geldrop-Mierlo,32.29,26.15
+Olst-Wijhe,33.19,22.6
+Dinkelland,30.01,21.65
+Westland,25.4,29.41
+Midden-Delfland,37.56,22.78
+Berkelland,25.05,25.95
+Bronckhorst,28.96,24.51
+Sittard-Geleen,29.6,29.66
+Kaag en Braassem,28.64,25.93
+Dantumadiel,19.41,30.34
+Zuidplas,32.3,25.97
+Peel en Maas,25.91,28.29
+Oldambt,19.14,32.16
+Zwartewaterland,18.81,35.26
+Súdwest-Fryslân,26.44,26.09
+Bodegraven-Reeuwijk,33.06,24.89
+Eijsden-Margraten,38.68,19.89
+Stichtse Vecht,38.15,23.7
+Hollands Kroon,21.86,27.79
+Leidschendam-Voorburg,45.51,22.08
+Goeree-Overflakkee,21.83,30.28
+Pijnacker-Nootdorp,40.06,22.38
+Nissewaard,21.17,30.88
+Krimpenerwaard,27.1,28.39
+De Fryske Marren,27.62,25.39
+Gooise Meren,49.39,19.79
+Berg en Dal,32.84,25.8
+Meierijstad,28.06,27.15
+Waadhoeke,23.21,27.7
+Westerwolde,18.29,34.5
+Midden-Groningen,22.18,29.85
+Beekdaelen,32.42,24.91
+Montferland,24.62,29.3
+Altena,21.77,31.49
+West Betuwe,26.74,27.45
+Vijfheerenlanden,25.63,28.24
+Hoeksche Waard,28.19,25.24
+Het Hogeland,24.77,27.68
+Westerkwartier,29.49,23.53
+Noardeast-Fryslân,20.26,30.76
+Molenlanden,22.32,26.13
+Eemsdelta,19.57,28.89
+Dijk en Waard,27.17,27.32
+Land van Cuijk,28.04,25.82
+Maashorst,28.43,27.48
+Voorne aan Zee,25.05,27.23

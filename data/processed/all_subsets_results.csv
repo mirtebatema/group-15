@@ -1,0 +1,64 @@
+k,Variables,Adj. R²,AIC,Max VIF,All significant
+5,Median income + Highly educated (%) + Residents 65+ (%) + Population density (log) + Apartments (%),0.37457487415073953,808.8858727728206,4.042509021400113,False
+6,Median income + Highly educated (%) + Residents 65+ (%) + Left-wing vote share (%) + Population density (log) + Apartments (%),0.3735078841267959,810.4441723599368,7.354910533854533,False
+4,Median income + Highly educated (%) + Population density (log) + Apartments (%),0.3713842143706739,809.627406297226,3.7865511639800102,True
+5,Median income + Highly educated (%) + Left-wing vote share (%) + Population density (log) + Apartments (%),0.37029134791980456,811.1997632211063,7.152272098026906,False
+5,Median income + Residents 65+ (%) + Left-wing vote share (%) + Population density (log) + Apartments (%),0.3638868584740331,814.630167816112,3.7794147324381187,False
+4,Median income + Left-wing vote share (%) + Population density (log) + Apartments (%),0.3576335570291582,816.9629214922217,3.602227383592228,True
+4,Median income + Residents 65+ (%) + Population density (log) + Apartments (%),0.35747159745713986,817.0483826416639,2.6839151599443403,True
+4,Median income + Highly educated (%) + Residents 65+ (%) + Population density (log),0.35419530439601654,818.7725729827836,1.8398068995077155,False
+5,Median income + Highly educated (%) + Residents 65+ (%) + Left-wing vote share (%) + Population density (log),0.35416524526211857,819.7718589358668,6.804037217108074,False
+3,Median income + Residents 65+ (%) + Population density (log),0.35218497860268416,818.8396608597048,1.2910508190529861,True
+4,Median income + Residents 65+ (%) + Left-wing vote share (%) + Population density (log),0.35120611699564874,820.3380564404105,1.7670387288373999,False
+3,Median income + Population density (log) + Apartments (%),0.346507255667436,821.7978546696573,2.6445924016212508,True
+4,Median income + Highly educated (%) + Left-wing vote share (%) + Population density (log),0.3437038842473653,824.2355423122792,6.7296563607396145,False
+3,Median income + Highly educated (%) + Population density (log),0.3435482482833889,823.3293778942632,1.7894208572497838,False
+5,Median income + Highly educated (%) + Residents 65+ (%) + Left-wing vote share (%) + Apartments (%),0.3427997391327956,825.6857511102403,7.2383993392436174,False
+4,Median income + Highly educated (%) + Residents 65+ (%) + Apartments (%),0.3421607875288578,825.0316704077093,2.767955566941286,True
+3,Median income + Left-wing vote share (%) + Population density (log),0.33895276488288495,825.6942756380441,1.381120169111195,False
+2,Median income + Population density (log),0.33872442560499516,824.8217859129321,1.00045047759343,True
+4,Median income + Highly educated (%) + Left-wing vote share (%) + Apartments (%),0.3318790089464574,830.2891325723552,6.948985302420204,False
+3,Median income + Highly educated (%) + Apartments (%),0.33100231316837025,829.7471240623778,2.528055563426561,True
+4,Median income + Residents 65+ (%) + Left-wing vote share (%) + Apartments (%),0.3276545581473942,832.4258418950742,2.4845361297001083,False
+3,Median income + Residents 65+ (%) + Apartments (%),0.32267909302328157,833.9387137641168,1.2896411611711558,True
+3,Median income + Left-wing vote share (%) + Apartments (%),0.3093977563554887,840.5217072774105,1.9631986419642646,True
+2,Median income + Apartments (%),0.29755892908985593,845.2942856242578,1.0475898633303529,True
+4,Highly educated (%) + Residents 65+ (%) + Left-wing vote share (%) + Population density (log),0.28932444187092476,851.2212728595009,2.9672630642052886,True
+5,Highly educated (%) + Residents 65+ (%) + Left-wing vote share (%) + Population density (log) + Apartments (%),0.28724081462454765,853.1972391048735,3.792465716762197,False
+3,Highly educated (%) + Left-wing vote share (%) + Population density (log),0.27365623378885495,857.6274357920164,2.9613913714603872,True
+4,Highly educated (%) + Left-wing vote share (%) + Population density (log) + Apartments (%),0.272498449349205,859.1539144019551,3.7325769996412372,False
+4,Highly educated (%) + Residents 65+ (%) + Population density (log) + Apartments (%),0.2667669680437591,861.8141952725822,2.564488164174615,False
+3,Highly educated (%) + Residents 65+ (%) + Population density (log),0.2638917706261358,862.1543566230611,1.560363923712139,True
+4,Median income + Highly educated (%) + Residents 65+ (%) + Left-wing vote share (%),0.24655709856145658,871.0314936368269,6.788995568745946,False
+3,Highly educated (%) + Population density (log) + Apartments (%),0.24652501700669682,870.0593815993299,2.4387807363979634,False
+2,Residents 65+ (%) + Population density (log),0.24651083732779566,869.0761941340653,1.290492591231832,True
+2,Highly educated (%) + Population density (log),0.24628847201390747,869.176223071714,1.1938639278725558,True
+3,Median income + Residents 65+ (%) + Left-wing vote share (%),0.245850564006854,870.3626926618465,1.0266417996849202,True
+3,Residents 65+ (%) + Population density (log) + Apartments (%),0.24554351415313058,870.5006874825516,2.4935686281858485,False
+3,Residents 65+ (%) + Left-wing vote share (%) + Population density (log),0.24441141626347285,871.0089918560146,1.7667954154134642,False
+4,Residents 65+ (%) + Left-wing vote share (%) + Population density (log) + Apartments (%),0.24331863069371995,872.4854697252695,3.0702657192067635,False
+1,Population density (log),0.23376301585403403,873.770981653611,1.0,True
+3,Median income + Highly educated (%) + Residents 65+ (%),0.23376168840121903,875.753705846507,1.4157655072383204,True
+2,Left-wing vote share (%) + Population density (log),0.23227504172167102,875.4212254210469,1.376649558933918,False
+2,Population density (log) + Apartments (%),0.2319646338798086,875.5582627675035,2.3219997736047944,False
+3,Left-wing vote share (%) + Population density (log) + Apartments (%),0.23008523154936966,877.3763582612152,2.953772915545484,False
+2,Median income + Residents 65+ (%),0.2217085554112066,880.0551926020972,1.0000377650178645,True
+4,Highly educated (%) + Residents 65+ (%) + Left-wing vote share (%) + Apartments (%),0.22095881771468395,882.3577116624049,3.7921787169819994,True
+3,Highly educated (%) + Residents 65+ (%) + Apartments (%),0.2000548106034702,890.3476487150749,1.5160866300419396,True
+3,Highly educated (%) + Residents 65+ (%) + Left-wing vote share (%),0.18945044675624023,894.8120300058004,2.6195499954171955,False
+2,Highly educated (%) + Residents 65+ (%),0.18823605179090142,894.3299850354881,1.0064762637122182,True
+3,Highly educated (%) + Left-wing vote share (%) + Apartments (%),0.17871655350877536,899.2718519280797,3.724679275042198,True
+2,Residents 65+ (%) + Apartments (%),0.16277822761440064,904.7981025523569,1.2166171316043422,True
+3,Residents 65+ (%) + Left-wing vote share (%) + Apartments (%),0.16181583063677019,906.1771305831609,2.146912091273876,False
+3,Median income + Highly educated (%) + Left-wing vote share (%),0.1570663524885726,908.0926148636859,6.729609859565757,False
+2,Median income + Left-wing vote share (%),0.1526970265966171,908.8557074696821,1.0035622794323875,True
+2,Highly educated (%) + Apartments (%),0.14806041934074543,910.705724416273,1.2340323305548304,True
+2,Residents 65+ (%) + Left-wing vote share (%),0.1421852521290783,913.0355205639132,1.0230280333609243,True
+2,Median income + Highly educated (%),0.1306016263292853,917.5826236078651,1.4040043869502192,True
+1,Apartments (%),0.12145497154554863,920.1379309721691,1.0,True
+2,Left-wing vote share (%) + Apartments (%),0.11884026569482242,922.1379265494771,1.7447882781979958,False
+1,Residents 65+ (%),0.1116803028088873,923.8888083981795,1.0,True
+1,Median income,0.11076522497107921,924.2378400810545,1.0,True
+1,Highly educated (%),0.09144233195081497,931.5253476213616,1.0,True
+2,Highly educated (%) + Left-wing vote share (%),0.08897327328667293,933.437920294454,2.5678901146054285,False
+1,Left-wing vote share (%),0.05018148829329472,946.5812068512788,1.0,True

@@ -23,7 +23,7 @@ Baarle-Nassau,22.6,29.0
 Baarn,25.0,25.8
 Barendrecht,29.3,20.4
 Barneveld,34.4,18.1
-Beek,21.9,28.7
+Beek (L.),21.9,28.7
 Beekdaelen,22.1,28.7
 Beesel,23.6,26.5
 Berg en Dal,23.3,27.3
@@ -102,8 +102,8 @@ Goirle,26.3,25.1
 Gooise Meren,28.6,21.3
 Gorinchem,26.6,20.1
 Gouda,26.7,20.9
-Den Haag,28.2,15.8
-Groningen,32.8,15.9
+'s-Gravenhage (gemeente),28.2,15.8
+Groningen (gemeente),32.8,15.9
 Gulpen-Wittem,19.5,32.6
 Haaksbergen,25.2,26.4
 Haarlem,26.5,17.9
@@ -125,7 +125,7 @@ Den Helder,24.2,25.5
 Hellendoorn,26.7,24.6
 Helmond,26.5,18.9
 Hendrik-Ido-Ambacht,31.6,18.0
-Hengelo,25.7,21.6
+Hengelo (O.),25.7,21.6
 's-Hertogenbosch,25.7,20.0
 Heumen,24.9,27.1
 Heusden,25.5,22.8
@@ -156,7 +156,7 @@ Land van Cuijk,24.4,25.1
 Landgraaf,21.6,28.7
 Landsmeer,27.5,24.0
 Lansingerland,31.7,17.1
-Laren,24.1,32.5
+Laren (NH.),24.1,32.5
 Leeuwarden,28.7,20.2
 Leiden,29.4,16.8
 Leiderdorp,26.2,24.0
@@ -179,7 +179,7 @@ Medemblik,26.4,23.8
 Meerssen,21.9,29.4
 Meierijstad,25.6,23.3
 Meppel,27.5,21.3
-Middelburg,27.3,23.5
+Middelburg (Z.),27.3,23.5
 Midden-Delfland,27.9,22.9
 Midden-Drenthe,24.3,26.7
 Midden-Groningen,24.5,24.6
@@ -236,7 +236,7 @@ Rheden,23.9,27.4
 Rhenen,28.2,23.3
 Ridderkerk,26.6,24.7
 Rijssen-Holten,31.7,20.2
-Rijswijk,27.3,20.4
+Rijswijk (ZH.),27.3,20.4
 Roerdalen,21.4,30.1
 Roermond,24.3,23.2
 De Ronde Venen,26.4,23.4
@@ -263,7 +263,7 @@ Staphorst,36.1,16.5
 Stede Broec,26.7,24.0
 Steenbergen,23.9,24.7
 Steenwijkerland,25.6,24.8
-Stein,21.0,30.1
+Stein (L.),21.0,30.1
 Stichtse Vecht,26.7,23.0
 Súdwest-Fryslân,26.0,25.2
 Terneuzen,23.3,26.3
@@ -280,7 +280,7 @@ Tytsjerksteradiel,27.0,25.1
 Uitgeest,26.9,21.4
 Uithoorn,28.3,19.1
 Urk,42.4,11.0
-Utrecht,30.5,11.3
+Utrecht (gemeente),30.5,11.3
 Utrechtse Heuvelrug,26.3,26.2
 Vaals,22.2,30.2
 Valkenburg aan de Geul,19.6,32.3

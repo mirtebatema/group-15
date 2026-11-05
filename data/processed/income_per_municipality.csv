@@ -1,0 +1,337 @@
+municipality,average_standardized_income_eur
+Aa en Hunze,42600.0
+Aalsmeer,52100.0
+Aalten,40500.0
+Achtkarspelen,36300.0
+Alblasserdam,41800.0
+Albrandswaard,51300.0
+Alkmaar,40400.0
+Almelo,39300.0
+Almere,41300.0
+Alphen aan den Rijn,44000.0
+Alphen-Chaam,48300.0
+Altena,43300.0
+Amersfoort,43900.0
+Amstelveen,51200.0
+Amsterdam,45600.0
+Apeldoorn,42700.0
+Arnhem,37900.0
+Assen,38500.0
+Asten,44100.0
+Baarle-Nassau,42400.0
+Baarn,49800.0
+Barendrecht,48200.0
+Barneveld,44700.0
+Beek,40500.0
+Beekdaelen,42200.0
+Beesel,38600.0
+Berg en Dal,42800.0
+Bergeijk,46300.0
+Bergen (L.),40200.0
+Bergen (NH.),57200.0
+Bergen op Zoom,40100.0
+Berkelland,40200.0
+Bernheze,47800.0
+Best,47000.0
+Beuningen,44800.0
+Beverwijk,39800.0
+De Bilt,54200.0
+Bladel,43700.0
+Blaricum,93400.0
+Bloemendaal,84700.0
+Bodegraven-Reeuwijk,51100.0
+Boekel,43800.0
+Borger-Odoorn,40000.0
+Borne,43000.0
+Borsele,45100.0
+Boxtel,43900.0
+Breda,44300.0
+Bronckhorst,44100.0
+Brummen,44100.0
+Brunssum,35900.0
+Bunnik,50200.0
+Bunschoten,46100.0
+Buren,45500.0
+Capelle aan den IJssel,40300.0
+Castricum,48800.0
+Coevorden,39600.0
+Cranendonck,43900.0
+Culemborg,43300.0
+Dalfsen,42900.0
+Dantumadiel,36800.0
+Delft,40000.0
+Deurne,42000.0
+Deventer,39500.0
+Diemen,43000.0
+Dijk en Waard,43100.0
+Dinkelland,46300.0
+Doesburg,37700.0
+Doetinchem,41400.0
+Dongen,42300.0
+Dordrecht,40600.0
+Drechterland,43800.0
+Drimmelen,44500.0
+Dronten,41200.0
+Druten,43900.0
+Duiven,42600.0
+Echt-Susteren,40900.0
+Edam-Volendam,47600.0
+Ede,44000.0
+Eemnes,49900.0
+Eemsdelta,36200.0
+Eersel,48700.0
+Eijsden-Margraten,45100.0
+Eindhoven,41600.0
+Elburg,42500.0
+Emmen,37200.0
+Enkhuizen,41000.0
+Enschede,37200.0
+Epe,44700.0
+Ermelo,45600.0
+Etten-Leur,42100.0
+De Fryske Marren,41000.0
+Geertruidenberg,43400.0
+Geldrop-Mierlo,44600.0
+Gemert-Bakel,41900.0
+Gennep,40800.0
+Gilze en Rijen,42100.0
+Goeree-Overflakkee,44400.0
+Goes,45100.0
+Goirle,45000.0
+Gooise Meren,57900.0
+Gorinchem,41000.0
+Gouda,40700.0
+Den Haag,40600.0
+Groningen,37100.0
+Gulpen-Wittem,40600.0
+Haaksbergen,43900.0
+Haarlem,44000.0
+Haarlemmermeer,46200.0
+Halderberge,41600.0
+Hardenberg,41200.0
+Harderwijk,42500.0
+Hardinxveld-Giessendam,43900.0
+Harlingen,36900.0
+Hattem,43900.0
+Heemskerk,41500.0
+Heemstede,59200.0
+Heerde,43300.0
+Heerenveen,41200.0
+Heerlen,34300.0
+Heeze-Leende,50400.0
+Heiloo,49300.0
+Den Helder,37400.0
+Hellendoorn,42700.0
+Helmond,39700.0
+Hendrik-Ido-Ambacht,47100.0
+Hengelo,38600.0
+'s-Hertogenbosch,44300.0
+Heumen,47000.0
+Heusden,44900.0
+Hillegom,42400.0
+Hilvarenbeek,47200.0
+Hilversum,45000.0
+Hoeksche Waard,50000.0
+Hof van Twente,43000.0
+Het Hogeland,37200.0
+Hollands Kroon,41100.0
+Hoogeveen,37900.0
+Hoorn,43900.0
+Horst aan de Maas,42600.0
+Houten,47700.0
+Huizen,51100.0
+Hulst,42300.0
+IJsselstein,46700.0
+Kaag en Braassem,47900.0
+Kampen,39200.0
+Kapelle,42500.0
+Katwijk,43600.0
+Kerkrade,34100.0
+Koggenland,43900.0
+Krimpen aan den IJssel,43300.0
+Krimpenerwaard,45400.0
+Laarbeek,43800.0
+Land van Cuijk,42400.0
+Landgraaf,37300.0
+Landsmeer,52800.0
+Lansingerland,53300.0
+Laren,154700.0
+Leeuwarden,36600.0
+Leiden,41300.0
+Leiderdorp,45000.0
+Leidschendam-Voorburg,45800.0
+Lelystad,38800.0
+Leudal,42400.0
+Leusden,47400.0
+Lingewaard,43000.0
+Lisse,44400.0
+Lochem,52000.0
+Loon op Zand,43100.0
+Lopik,46900.0
+Losser,40500.0
+Maasdriel,44900.0
+Maasgouw,43100.0
+Maashorst,44700.0
+Maassluis,40200.0
+Maastricht,39000.0
+Medemblik,42000.0
+Meerssen,44500.0
+Meierijstad,45700.0
+Meppel,40100.0
+Middelburg,39900.0
+Midden-Delfland,55300.0
+Midden-Drenthe,40700.0
+Midden-Groningen,36700.0
+Moerdijk,41900.0
+Molenlanden,49600.0
+Montferland,41000.0
+Montfoort,50200.0
+Mook en Middelaar,60900.0
+Neder-Betuwe,40900.0
+Nederweert,42500.0
+Nieuwegein,40500.0
+Nieuwkoop,47700.0
+Nijkerk,46400.0
+Nijmegen,38600.0
+Nissewaard,39600.0
+Noardeast-Fryslân,36700.0
+Noord-Beveland,40800.0
+Noordenveld,42100.0
+Noordoostpolder,39900.0
+Noordwijk,52000.0
+"Nuenen, Gerwen en Nederwetten",50300.0
+Nunspeet,43000.0
+Oegstgeest,55000.0
+Oirschot,48400.0
+Oisterwijk,52800.0
+Oldambt,35700.0
+Oldebroek,40400.0
+Oldenzaal,41000.0
+Olst-Wijhe,43600.0
+Ommen,42100.0
+Oost Gelre,42700.0
+Oosterhout,43900.0
+Ooststellingwerf,38300.0
+Oostzaan,47200.0
+Opmeer,42900.0
+Opsterland,41200.0
+Oss,42100.0
+Oude IJsselstreek,40200.0
+Ouder-Amstel,52800.0
+Oudewater,53400.0
+Overbetuwe,44400.0
+Papendrecht,42600.0
+Peel en Maas,41100.0
+Pekela,34400.0
+Pijnacker-Nootdorp,49400.0
+Purmerend,41000.0
+Putten,46000.0
+Raalte,42600.0
+Reimerswaal,42600.0
+Renkum,46200.0
+Reusel-De Mierden,43400.0
+Rheden,40200.0
+Rhenen,46400.0
+Ridderkerk,41200.0
+Rijssen-Holten,46400.0
+Rijswijk,40900.0
+Roerdalen,41700.0
+Roermond,39000.0
+De Ronde Venen,52900.0
+Roosendaal,39600.0
+Rotterdam,38700.0
+Rucphen,41000.0
+Schagen,43200.0
+Scherpenzeel,43200.0
+Schiedam,38600.0
+Schouwen-Duiveland,44000.0
+Simpelveld,39300.0
+Sint-Michielsgestel,47700.0
+Sittard-Geleen,38200.0
+Sliedrecht,39500.0
+Sluis,40300.0
+Smallingerland,37800.0
+Soest,47000.0
+Someren,47500.0
+Son en Breugel,50200.0
+Stadskanaal,35700.0
+Staphorst,43200.0
+Stede Broec,41200.0
+Steenbergen,42300.0
+Steenwijkerland,40400.0
+Stein,40100.0
+Stichtse Vecht,50800.0
+Súdwest-Fryslân,38900.0
+Terneuzen,39100.0
+Texel,40500.0
+Teylingen,50600.0
+Tholen,40500.0
+Tiel,39600.0
+Tilburg,38700.0
+Tubbergen,44800.0
+Twenterand,42100.0
+Tynaarlo,45400.0
+Tytsjerksteradiel,39900.0
+Uitgeest,45100.0
+Uithoorn,44600.0
+Urk,40400.0
+Utrecht,43700.0
+Utrechtse Heuvelrug,50600.0
+Vaals,34700.0
+Valkenburg aan de Geul,40600.0
+Valkenswaard,42200.0
+Veendam,36300.0
+Veenendaal,41500.0
+Veere,44700.0
+Veldhoven,45100.0
+Velsen,41300.0
+Venlo,38700.0
+Venray,40700.0
+Vijfheerenlanden,43400.0
+Vlaardingen,37900.0
+Vlissingen,36600.0
+Voerendaal,42500.0
+Voorne aan Zee,47100.0
+Voorschoten,49600.0
+Voorst,45700.0
+Vught,58700.0
+Waadhoeke,37900.0
+Waalre,60400.0
+Waalwijk,40800.0
+Waddinxveen,43400.0
+Wageningen,39600.0
+Wassenaar,77700.0
+Waterland,49300.0
+Weert,41400.0
+West Betuwe,47200.0
+West Maas en Waal,43000.0
+Westerkwartier,40600.0
+Westerveld,43600.0
+Westervoort,38500.0
+Westerwolde,37100.0
+Westland,48400.0
+Weststellingwerf,37800.0
+Wierden,48600.0
+Wijchen,42600.0
+Wijdemeren,57000.0
+Wijk bij Duurstede,44600.0
+Winterswijk,39800.0
+Woensdrecht,42600.0
+Woerden,47300.0
+De Wolden,43500.0
+Wormerland,43200.0
+Woudenberg,45000.0
+Zaanstad,39600.0
+Zaltbommel,42700.0
+Zandvoort,46500.0
+Zeewolde,43100.0
+Zeist,52400.0
+Zevenaar,39300.0
+Zoetermeer,40900.0
+Zoeterwoude,46200.0
+Zuidplas,48200.0
+Zundert,43500.0
+Zutphen,38500.0
+Zwartewaterland,45200.0
+Zwijndrecht,40900.0
+Zwolle,41300.0

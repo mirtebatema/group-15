@@ -85,5 +85,5 @@ The final report is `main_report.ipynb`, with an HTML export of the same noteboo
 - **Municipality names:** CBS and Kiesraad spell some names differently (for example *'s-Gravenhage* and *Den Haag*). These are aligned in the notebooks before merging.
 
 ## Use of AI
-
+uitgebreide uitleg maken
 AI tools were used for language, structure and code suggestions. All analyses and conclusions are the authors' own.

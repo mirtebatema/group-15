@@ -1,6 +1,6 @@
 # Public charging points in Dutch municipalities: need or affluence?
 
-**TIL6022 Python Programming – Group 15 – TU Delft, 2026**
+**TIL6022 Python Programming , Group 15 , TU Delft, 2026**
 
 This project examines why the number of public EV charging points differs so much between Dutch municipalities. For all 342 municipalities, the number of regular public charging points per 1,000 households is related to indicators of need (population density, share of apartments), socioeconomic characteristics (income, education), demographics (age structure) and political preference (left-wing vote share). A multivariate regression shows which characteristics explain the most variation.
 

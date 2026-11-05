@@ -126,4 +126,14 @@ The final report is `main_report.ipynb`, with an HTML export of the same noteboo
 
 ## Use of AI
 
-[nog te doen]
+AI tools used for coding 
+
+Claude and GitHub Copilot were occasionally used to improve code clarity, help solve programming problems, and suggest approaches for more complex calculations, such as calculating EV charging point density (Notebook 6). 
+
+AI tools used for writing 
+
+AI tools were used to improve the grammar, clarity, and readability of the report. 
+
+Our own contribution 
+
+All research questions, ideas, data analyses, interpretations, and conclusions presented in this report were developed by our group through our own reasoning, discussions, and use of course materials. AI tools were used only as supporting tools, and we reviewed the suggestions before including them in our work. 

@@ -8,13 +8,28 @@ This project examines why the number of public EV charging points differs so muc
 
 ## Authors
 
-- Merel Vos
 - Mirte Batema
-- Mats de Vries
+- Merel Vos
 - Famke Lemstra
 - Luca Preijde
+- Mats de Vries
 
-See the contribution statement in the main report for the tasks per member.
+See the contribution statement (section 3) in the main report for the tasks per member.
+
+## Where to find what
+
+The report is the starting point. Every result in it comes from one of the notebooks in `notebooks/`. The table below shows which notebook produces which part of the report.
+
+| Report section | Content | Notebook | Figure in `figures/` |
+| --- | --- | --- | --- |
+| 6.1 Variation (SQ1) | Map, histogram and boxplot of charging point density | 2, 6, 6.2 | `map_chargingpoints_per_1000households.png`, `figure_distribution_of_public_charging_point_density.png`, `figure_boxplot_charging_point_density.png` |
+| 6.2 Income and education (SQ2) | Maps of income and education level | 1.2, 5 | `map_income_per_municipality.png`, `map_education_per_municipality.png` |
+| 6.3 Age structure (SQ3) | Map of young and older residents | 3 | `map_age_per_municipality.png` |
+| 6.4 Political preference (SQ4) | Map of left-wing vote share (broad and narrow) | 4 | `map_left_wing_votes_per_municipality.png` |
+| 6.5 Population density (SQ5) | Map of population density | 2.2 | `map_population_density_per_municipality.png` |
+| 6.6 Comparison of all factors | Correlation table, scatter plots, correlation matrix | 6, 6.2 | `figure_scatter_all_factors.png`, `figure_correlationmatrix.png` |
+| 7 Regression model | Main OLS model, residuals, robustness checks | 7 | `figure_regression_coefficients.png`, `figure_regression_residuals.png` |
+| 7 Stepwise regression | Hierarchical, all-subsets and composite-index regression | 8 | `figure_stepwise_coefficients.png`, `figure_all_subsets.png` |
 
 ## Repository structure
 
@@ -24,28 +39,29 @@ group-15/
 │   ├── raw/          # input: the original datasets, kept unchanged
 │   └── processed/    # output: tables that the notebooks create from the raw data
 ├── figures/          # figures created by the notebooks
-├── notebooks/        # analysis notebooks, run in numbered order
-├── main_report.ipynb # final report (to be added)
+├── notebooks/        # all notebooks, run in numbered order
+├── main_report.ipynb # final report
 └── README.md
 ```
 
 ## Data
 
-All datasets are open data. The unit of analysis is the municipality (gemeentelijke indeling 2024, 342 municipalities).
+All datasets are open data. The unit of analysis is the municipality (municipal division 2024, 342 municipalities).
 
 | File in `data/raw/` | Content | Source | Period |
 | --- | --- | --- | --- |
 | `laadpunten_per_gemeente.csv` | Regular public charging points per municipality | [Laadinfrastructuur databank (NAL)](https://laadinfrastructuur.databank.nl/) | July 2026 |
-| `inkomens_per_gemeente.csv` | Private households, mean and median standardised income | [CBS StatLine, table 86161NED](https://opendata.cbs.nl/statline/) | 2024 (provisional) |
-| `jongeren_per_gemeente_2026.csv` | Share of residents under 25 | CBS StatLine | 2026 |
+| `inkomens_per_gemeente.csv` | Private households, mean and median standardised income | [CBS StatLine, table 86161NED](https://www.cbs.nl/nl-nl/cijfers/detail/86161NED) | 2024 (provisional) |
+| `jongeren_per_gemeente_2026.csv` | Share of residents aged 0–25 | CBS StatLine | 2026 |
 | `ouderen_per_gemeente_2026.csv` | Share of residents aged 65+ | CBS StatLine | 2026 |
-| `kwb2024_per_gemeente.csv` | Education level, population density, share of apartments (extract per municipality) | [CBS Kerncijfers wijken en buurten 2024, table 85984NED](https://www.cbs.nl/nl-nl/cijfers/detail/85984NED) | 2024 |
+| `kwb2024.zip` | Full CBS download of Kerncijfers wijken en buurten 2024 | [CBS, table 85984NED](https://www.cbs.nl/nl-nl/cijfers/detail/85984NED) | 2024 |
+| `kwb2024_per_gemeente.csv` | Extract of `kwb2024.zip` with one row per municipality: education level, population density, share of apartments | Created by notebook 0.5 | 2024 |
 | `tk2025_uitslag.csv` | Votes per party list per municipality | [Kiesraad, Tweede Kamer election 29 October 2025](https://data.overheid.nl/dataset/verkiezingsuitslag-tweede-kamer-2025) | 2025 |
-| `gemeenten_2024.gpkg` | Municipal boundaries for maps | [CBS/PDOK gebiedsindelingen 2024](https://service.pdok.nl/cbs/gebiedsindelingen/2024/wfs/v1_0) | 2024 |
+| `gemeenten_2024.gpkg` | Municipal boundaries for the maps | [CBS/PDOK gebiedsindelingen 2024](https://www.pdok.nl/introductie/-/article/cbs-gebiedsindelingen) | 2024 |
 
-`kwb2024_per_gemeente.csv` is a small extract of the full CBS download (about 72 MB), which is not included in the repository. To recreate the extract, place the CBS files `Observations.csv` and `WijkenEnBuurtenCodes.csv` in `data/raw/kwb2024/` and delete the extract; notebook 6 then rebuilds it.
+Raw data files keep their original Dutch names; all notebooks, processed data and figures have English names. Column names in the processed files are partly Dutch (for example `laadpunten_per_1000_huishoudens`), because they follow the source data.
 
-Raw data files keep their original Dutch names; all notebooks, processed data and figures have English names.
+**Missing data.** CBS does not publish income figures for a few very small municipalities. Mean income is missing for Ameland, Renswoude, Rozendaal, Schiermonnikoog, Terschelling and Vlieland; median income for Rozendaal, Schiermonnikoog and Vlieland. The regressions therefore use 339 of the 342 municipalities.
 
 ## How to run the analysis
 
@@ -54,24 +70,44 @@ Raw data files keep their original Dutch names; all notebooks, processed data an
 Python 3.10 or newer is recommended.
 
 ```bash
-pip install pandas geopandas matplotlib seaborn scipy statsmodels jupyter
+pip install pandas numpy geopandas matplotlib seaborn scipy statsmodels jupyter
 ```
 
 ### 2. Run the notebooks in order
 
-Open Jupyter from the repository folder and run the notebooks in `notebooks/` from top to bottom, in this order. All paths are relative, so the notebooks work on any computer as long as the folder structure is kept.
+Open Jupyter from the repository folder and run the notebooks in `notebooks/` from top to bottom, in numbered order. All paths are relative, so the notebooks work on any computer as long as the folder structure is kept. The notebooks fall into three groups.
+
+**Step 0 – Data processing.** These notebooks clean the raw data and save one processed file per variable.
 
 | Notebook | What it does | Output |
 | --- | --- | --- |
-| `1. chargingpoints_households_income.ipynb` | Merges charging points with households and income; calculates charging points per 1,000 households | `data/processed/chargingpoints_households_income.csv` |
-| `2. chargingpoints_per_1000_households.ipynb` | Map of charging points per 1,000 households | `figures/map_chargingpoints_per_1000households.png` |
-| `3. age_per_municipality-2.ipynb` | Age structure per municipality and map | `data/processed/age_per_municipality.csv`, `figures/map_age_per_municipality.png` |
-| `4. left_wing_votes_per_municipality.ipynb` | Left-wing vote share per municipality and map | `data/processed/left_wing_votes_per_municipality.csv`, `figures/map_left_wing_votes_per_municipality.png` |
-| `6. descriptive_statistics_correlations.ipynb` | Merges all variables; descriptive statistics, correlations with charging point density and correlation matrix (report section 6.6) | `data/processed/all_variables_per_municipality.csv`, `data/processed/table_comparison_factors.csv`, `figures/figure_correlationmatrix.png`, `figures/figure_distribution_of_public_charging_point_density.png` |
-| `7. regression.ipynb` | Multivariate OLS regression with robustness checks and residual diagnostics (report section 7) | `data/processed/regression_results.csv`, `figures/figure_regression_coefficients.png`, `figures/figure_regression_residuals.png` |
-| *to be added* | Maps and plots for income, education and population density | `figures/` |
+| `0.1` age | Combines the shares of young (0–25) and older (65+) residents | `data/processed/age_per_municipality.csv` |
+| `0.2` education | Calculates the share of highly and low educated residents | `data/processed/education_per_municipality.csv` |
+| `0.3` left-wing votes | Calculates the left-wing vote share (broad and narrow definition) | `data/processed/left_wing_votes_per_municipality.csv` |
+| `0.4` population density | Calculates population density and its logarithm | `data/processed/population_density_per_municipality.csv` |
+| `0.5` kwb2024 extract | Builds the extract `kwb2024_per_gemeente.csv` from `kwb2024.zip` | `data/raw/kwb2024_per_gemeente.csv` |
+| `0.6` income | Prepares mean standardised income per municipality | `data/processed/income_per_municipality.csv` |
 
-Notebook 7 uses the output of notebook 6, so run notebook 6 first.
+**Steps 1–5 – Exploration per variable.** Each notebook builds or loads one variable and draws a map per municipality.
+
+| Notebook | What it does | Output |
+| --- | --- | --- |
+| `1` charging points, households, income | Merges charging points with households and income; calculates charging points per 1,000 households (the dependent variable) | `data/processed/chargingpoints_households_income.csv` |
+| `1.2` income | Map of mean standardised income | `figures/map_income_per_municipality.png` |
+| `2` charging points per 1,000 households | Map of the dependent variable | `figures/map_chargingpoints_per_1000households.png` |
+| `2.2` population density | Map of population density (log scale) | `figures/map_population_density_per_municipality.png` |
+| `3` age | Map of young and older residents | `figures/map_age_per_municipality.png` |
+| `4` left-wing votes | Map of left-wing vote share | `figures/map_left_wing_votes_per_municipality.png` |
+| `5` education | Map of highly and low educated residents | `figures/map_education_per_municipality.png` |
+
+**Steps 6–8 – Analysis.** Notebook 6 merges all variables into one table. Notebooks 6.2, 7 and 8 use that table, so run notebook 6 first.
+
+| Notebook | What it does | Output |
+| --- | --- | --- |
+| `6` descriptive statistics and correlations | Merges all variables into one table; descriptive statistics, correlations with charging point density, correlation matrix | `data/processed/all_variables_per_municipality.csv`, `data/processed/table_comparison_factors.csv`, `figures/figure_distribution_of_public_charging_point_density.png`, `figures/figure_correlationmatrix.png` |
+| `6.2` distribution and scatter plots | Boxplot of charging point density; scatter plots of each factor | `figures/figure_boxplot_charging_point_density.png`, `figures/figure_scatter_all_factors.png` |
+| `7` regression | Multivariate OLS regression with robust (HC3) standard errors, VIF, residual diagnostics and robustness checks | `data/processed/regression_results.csv`, `figures/figure_regression_coefficients.png`, `figures/figure_regression_residuals.png` |
+| `8` stepwise regression | Hierarchical, all-subsets and composite-index regression | `data/processed/stepwise_results.csv`, `data/processed/all_subsets_results.csv`, `data/processed/composite_model_results.csv`, `figures/figure_stepwise_coefficients.png`, `figures/figure_all_subsets.png` |
 
 ### 3. Read the report
 
@@ -80,10 +116,14 @@ The final report is `main_report.ipynb`, with an HTML export of the same noteboo
 ## Key definitions
 
 - **Charging point density:** regular public charging points / private households × 1,000.
+- **Income:** standardised household income (corrected for household size), in € 1,000. The median is used in the regression, because the mean is distorted by a few very rich municipalities.
+- **Age structure:** share of residents aged 0–25 and aged 65 and over, as a percentage of the total population.
 - **Highly educated:** persons aged 15–75 with hbo or wo as highest level, divided by all persons aged 15–75 with a known education level.
-- **Left-wing vote share:** votes for GroenLinks-PvdA, SP, Partij voor de Dieren, DENK, BIJ1, D66 and Volt, divided by all votes for party lists. A narrow definition without D66 and Volt is used as a robustness check.
-- **Municipality names:** CBS and Kiesraad spell some names differently (for example *'s-Gravenhage* and *Den Haag*). These are aligned in the notebooks before merging.
+- **Left-wing vote share:** votes for GroenLinks-PvdA, SP, Partij voor de Dieren, DENK, BIJ1, D66 and Volt, divided by all valid votes for party lists. A narrow definition without D66 and Volt is used as a robustness check.
+- **Population density:** inhabitants per km² of land. Because it is strongly right-skewed, its natural logarithm is used in the regression.
+- **Share of apartments:** apartments as a percentage of all dwellings; a second indicator of need for public charging.
+- **Municipality names:** CBS and the Kiesraad spell some names differently (for example *'s-Gravenhage* and *Den Haag*). These are aligned in the notebooks before merging.
 
 ## Use of AI
-uitgebreide uitleg maken
-AI tools were used for language, structure and code suggestions. All analyses and conclusions are the authors' own.
+
+[nog te doen]

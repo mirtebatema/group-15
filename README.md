@@ -40,7 +40,7 @@ group-15/
 │   └── processed/    # output: tables that the notebooks create from the raw data
 ├── figures/          # figures created by the notebooks
 ├── notebooks/        # all notebooks, run in numbered order
-├── final_report_group_15.ipynb # final report (nog toevoegen)
+├── final_report_group_15.ipynb # final report
 └── README.md
 ```
 

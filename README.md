@@ -40,7 +40,7 @@ group-15/
 │   └── processed/    # output: tables that the notebooks create from the raw data
 ├── figures/          # figures created by the notebooks
 ├── notebooks/        # all notebooks, run in numbered order
-├── main_report.ipynb # final report (nog toevoegen)
+├── final_report_group_15.ipynb # final report (nog toevoegen)
 └── README.md
 ```
 
@@ -111,7 +111,7 @@ Open Jupyter from the repository folder and run the notebooks in `notebooks/` fr
 
 ### 3. Read the report
 
-The final report is `main_report.ipynb`, with an HTML export of the same notebook.
+The final report is `final_report_group_15.ipynb`, with an HTML export of the same notebook.
 
 ## Key definitions
 
